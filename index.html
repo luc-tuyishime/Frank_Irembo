@@ -37,7 +37,7 @@
       </div>
       <!-- Page Contents -->
       <div class="pusher">
-         <div class="ui bg-blue borderless masthead center aligned computer only tablet only large screen only">
+         <div class="ui bg-blue borderless masthead center aligned computer only large screen only tablet only large screen only">
             <div class="ui container fluid">
                <div class="ui big secondary container inverted menu">
                   <a class="toc item">
@@ -75,10 +75,10 @@
                <div class="bg-secon-menu0">
                   <div class="ui container fluid">
                      <div class="ui pad-index secondary fluid inverted menu">
-                        <a style="margin-top:10px;" class="toc item">
-                        <i style="font-weight:bold;color:#fff;font-size:20px;padding-top:10px;" class="bg-secon-menu02 sidebar icon"></i>
+                        <a class="margin-nav-logo toc item">
+                        <i class="bg-secon-menu02 sidebar icon"></i>
                         </a>
-                        <a style="position:relative;top:4px;" href="index.html" style="font-weight:bold;" class="item right">  <img class="ui bg-secon-menu02 tiny  image" src="/assets/logo.png"></a>
+                        <a href="index.html" class="irembo_home item right">  <img class="ui bg-secon-menu02 tiny  image" src="/assets/logo.png"></a>
                         <div class="right item computer only tablet only large screen only">
                            <a href="index.html" class="active item">Products</a>
                            <a href="company.html" class="item">Our Company</a>
@@ -100,7 +100,7 @@
             </div>
             <img class="ui centered image" src="/assets/phone_small.png">
          </div>
-         <div id="startchange" class="bg-cut">
+         <div id="startchange1" class="bg-cut">
             <div class="ui two column  stackable grid container padding-text">
                <div class="one wide column"></div>
                <div class="nine wide column home-div-2">
@@ -133,7 +133,7 @@
                      </p>
                      <span class="ui header_div2_text">Say bye to papers!</span>
                      <p  class="ui header_div_2text3">A secure way to store, access and share your official documents, licenses and cards online. Forget the trip back to your home because you forgot a document that is required. We’ve got you covered!</p>
-                     <button class="ui red btn-third button">NEW   <i class="plus small icon"></i> </button>
+                     <button class="ui red btn-third button">NEW <i class="plus small icon"></i> </button>
                   </div>
                </div>
                <div class="nine wide mobile only  column">
@@ -182,7 +182,7 @@
             </div>
             <div class="two wide column"></div>
          </div>
-         <div style="padding-left:25px;padding-bottom:95px;" class="ui four column  div-boule stackable grid container">
+         <div class="padding_secure ui four column div-boule stackable grid container">
             <div class="column centered">
                <img class="ui avatar image" src="/assets/secure.svg">
                <span id="boule">Secure</span>
@@ -204,7 +204,7 @@
                <p class="footer-text-1">WE'RE DRIVING POSITIVE IMPACT</p>
                <p class="footer-text-2">Making life simple<br/> with Tech</p>
                <div class="ui mobile only two column centered grid">
-                  <p style="text-align:center;color:#4F5F83;font-size:23px;">With Happy Partners</p>
+                  <p class="text-style">With Happy Partners</p>
                   <div class="height  column row padding-img">
                      <div class="column">
                         <img class="ui centered small image" src="/assets/logo.png">
@@ -226,8 +226,8 @@
                      </div>
                   </div>
                </div>
-               <div class="ui computer only tablet only large screen only two column centered grid">
-                  <p style="text-align:center;color:#4F5F83;font-size:23px;">With Happy Partners</p>
+               <div class="ui computer only large screen only tablet only large screen only two column centered grid">
+                  <p class="text-style">With Happy Partners</p>
                   <!-- Mobile -->
                   <div class="height column centered row">
                      <div class="column">
@@ -289,7 +289,7 @@
                            <form method="POST" action="http://formspree.io/francooworks@gmail.com">
                               <div class="inline fields">
                                  <div class="field">
-                                    <input type="text" id="my-form"  name="Subscribe"  placeholder="Enter Email" required style="background-color: transparent;border: 1px solid #4F5F83;color:#4F5F83">
+                                    <input type="text" id="my-form" class="form-style"  name="Subscribe"  placeholder="Enter Email" required>
                                  </div>
                                  <div class="field">
                                     <button type="submit" class="ui submit primary button">Subscribe</button>
@@ -307,26 +307,5 @@
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <script src="style.js"></script>
       <script src="semantic.min.js"></script>
-      <script>
-      $(document).ready(function() {
-  var scroll_start = 0
-  var startchange = $("#startchange")
-  var offset = startchange.offset()
-  $(document).scroll(function() {
-    scroll_start = $(this).scrollTop()
-    if (scroll_start > offset.top) {
-      $(".bg-secon-menu0").css("background-color", "#fff")
-      $(".bg-secon-menu0").css("box-shadow", "0px 1px 10px #00000040")
-      $(".bg-secon-menu02").css("color", "#1474DF")
-      $(".pad-index img").attr("src", "./assets/logo-top.png")
-    } else {
-      $(".bg-secon-menu0").css("background-color", "#1474DF")
-      $(".bg-secon-menu02").css("color", "#fff")
-      $(".bg-secon-menu0").css("box-shadow", "0px 0px 0px #1474DF")
-      $(".pad-index img").attr("src", "./assets/logo.png")
-    }
-  })
-})
-</script>
    </body>
 </html>

@@ -178,6 +178,7 @@ margin-top:10px;
   color:#4F5F83 !important;
   font:14px "regular-light" !important;
   line-height: 22px !important;
+  margin-top:30px !important;
 }
 
 
@@ -210,7 +211,7 @@ margin-top:10px;
 
 .become{
   color:#010E27;
-  font:40px "greatest";
+  font:28px "greatest";
 }
 
 .carreer{
@@ -253,7 +254,7 @@ margin-top:10px;
 /* Style the tab */
 .tab {
 
-    padding-top: 90px;
+    padding-top: 40px;
     float: left;
     cursor: pointer;
     width: 20%;
@@ -364,6 +365,7 @@ margin-top:10px;
 .tabcontent {
     float: left;
     padding: 80px ;
+    padding-top:30px !important;
     padding-bottom: 90px;
     width: 75%;
     border-left: none;
@@ -373,7 +375,7 @@ margin-top:10px;
 
 
 .padding-text_team{
-  padding-left: 20px !important;
+  /* padding-left: 20px !important; */
   padding-top: 170px !important;
 }
 
@@ -519,6 +521,7 @@ margin-top:10px;
     }
 
     .div-boule{
+
       position: relative !important;
       bottom: 35px !important;
     }
@@ -642,8 +645,8 @@ margin-top:10px;
      .hiring{
        color:#010E27;
        font:40px "greatests";
-       padding-left: 15px !important;
-          padding-right: 15px !important;
+
+
      }
 
      #hide_join_onsmall{
@@ -1332,4 +1335,116 @@ font-family:Arial;
  color:#fff;
   width:375px;
   font-size:40px;
+}
+
+.margin-nav-logo{
+  margin-top:10px !important;
+}
+
+.margin-nav-logo i {
+  font-weight:bold;
+  color:#fff;
+  font-size:20px;
+  padding-top:10px;
+}
+
+.irembo_home{
+  font-weight: bold !important;
+  position:relative !important;
+  top:4px !important;
+}
+
+.padding_secure{
+  padding-left:25px !important;
+  padding-bottom:95px !important;
+}
+
+.text-style{
+  text-align:center !important;
+  color:#4F5F83 !important;
+  font-size:23px !important;
+}
+
+.form-style{
+  background-color: transparent !important;
+  border: 1px solid #4F5F83 !important;
+  color:#4F5F83 !important;
+}
+
+.phone-burger{
+  font-weight:bold !important;
+  color:#fff !important;
+  font-size:20px !important;
+  padding-top:10px !important;
+}
+
+.number-style {
+  margin-top:10px !important;
+}
+
+.people-image{
+  padding-bottom:50px !important;
+}
+
+.padding-div{
+  padding-top:90px !important;
+}
+
+.padding-div-2{
+  margin-top:150px !important;
+}
+
+ #team_link{
+  color:#010E27!important
+}
+
+#team_link2{
+ color:#1474DF!important;
+}
+
+.nav-team-logo{
+  height: 65px !important;
+  font-weight:bold !important;
+}
+
+.team_div_3{
+  margin-top:70px !important;
+  padding-bottom:70px !important;
+}
+
+.team_sub_div{
+  margin-top:70px !important;
+}
+
+.team_sub_div_{
+  padding-top:60px !important;
+}
+
+.team_div_mobile{
+  margin-top:70px !important;
+  padding-bottom:70px !important;
+}
+
+.footer-div-team{
+  margin-top:150px !important;
+}
+
+.join-burger{
+  font-weight:bold !important;
+  font-size:20px !important;
+  padding-top:20px !important;
+}
+
+.text-join{
+  color:#1474df !important;
+  font-size:19px !important;
+  /* margin-bottom:30px !important; */
+}
+
+.form-width{
+  width: 50% !important;
+}
+
+.form-width-2{
+  width: 100% !important;
 }

@@ -33,7 +33,7 @@
       </div>
       <!-- Page Contents -->
       <div class="pusher">
-         <div class="ui bg-company container fluid borderless masthead center aligned computer only tablet only large screen only">
+         <div class="ui bg-company container fluid borderless masthead center aligned computer only  tablet only large screen only">
             <div class="bg-secon-menu_01">
                <div class="ui container">
                   <div class="ui big secondary inverted menu">
@@ -57,7 +57,7 @@
                   <div class="ui  container">
                      <div class="ui img-change big secondary inverted menu">
                         <a class="toc item">
-                        <i style="font-weight:bold;color:#fff;font-size:20px;padding-top:10px;" class="bg-secon-menu02 sidebar icon"></i>
+                        <i class="phone-burger bg-secon-menu02 sidebar icon"></i>
                         </a>
                         <a href="index.html" style="height: 65px;font-weight:bold;" class="item right">  <img class="ui centered tiny image" src="/assets/logo.png"></a>
                         <div class="right computer only tablet only large screen only item">
@@ -74,15 +74,15 @@
                <img class="ui fluid large image img-about" src="/assets/about.jpg">
             </div>
          </div>
-         <div id="startchange" class="ui two column  stackable padding-text grid container">
+         <div id="startchange2" class="ui two column  stackable padding-text grid container">
             <div class="column home-div-2">
                <p class="ui company_1 header">
                   What we do
                </p>
-               <span style="" class="ui company_2">We create beautiful digital experiences that make a difference</span>
+               <span class="ui company_2">We create beautiful digital experiences that make a difference</span>
                <p class="ui card-text company_3"> On July 20th 2015, Irembo was built to improve Rwanda’s service delivery under a 25 years agreement with the government of Rwanda with the mandate to Build, Operate and Transfer a one stop platform for all government services. For the past three years, 89 services requested by over 8000 citizens and businesses daily were put on the platform. This evolution pragmatically transformed the country’s service delivery by making it simpler, faster and less costly.
                </p>
-               <p  class="card-text" style="margin-top:30px;" class="ui">By enabling the government to provide services to the citizens and businesses, service delivery is now processed with ease and efficiency through an online Portal, Mobile USSD and the best of breed Agent Network that were developed to support this change allowing users with or without access to internet or mobile phones to request and receive government services.
+               <p class="card-text" class="ui">By enabling the government to provide services to the citizens and businesses, service delivery is now processed with ease and efficiency through an online Portal, Mobile USSD and the best of breed Agent Network that were developed to support this change allowing users with or without access to internet or mobile phones to request and receive government services.
                </p>
             </div>
             <div class="column core-values-onsmall">
@@ -137,7 +137,7 @@
                </div>
             </div>
          </div>
-         <div style="margin-top:10px;" class="ui four column hideshow_onsmall nberpadding  stackable grid container">
+         <div class="number-style ui four column hideshow_onsmall nberpadding  stackable grid container">
             <div class="column">
                <div>
                   <p class="number1">89</p>
@@ -162,10 +162,6 @@
                </div>
                <p class="nber_text">COUNTRY AGENTS</p>
             </div>
-            <!-- <div class="column centered">
-               <div style="color:#F8972C ;font-size:138px;text-align:center;font-weight:bold;">03</div><br><br>
-               <div style="text-align:center;color:#4F5F83;" class="text-boule">GOALS ACHIEVED</div>
-               </div> -->
          </div>
          <div class="ui mobile container reversed equal width grid mobile only">
             <div class="column">
@@ -199,13 +195,13 @@
             <div class="row">
                <div class="sixteen wide column">
                   <p class="community">COMMUNITY</p>
-                  <span class="become" style="color:#010E27;font-size:28px;">Become a partner</span><br><br>
+                  <span class="become">Become a partner</span><br><br>
                   <span class="milstonediv">Collaboration is the key to success, we trust in the value that comes with it,
                   join us to create the world we want.</span>
                </div>
             </div>
          </div>
-         <div style="padding-botom:50px;" class="ui two column container  grid">
+         <div class="people-image ui two column container  grid">
             <div class="height column  computer only tablet only row">
                <div class="column">
                   <img  class="ui centered tiny image" src="/assets/logo-top.png">
@@ -288,11 +284,11 @@
             </div>
          </div>
 
-         <div style="padding-top:90px;" class="ui two column  stackable grid container padding-text">
+         <div class="padding-div ui two column  stackable grid container padding-text">
             <div class="row">
                <div class="sixteen wide column padding-text_">
                   <p class="community">COMMUNITY</p>
-                  <span class="become" style="color:#010E27;font-size:28px;">Our Stories....</span><br><br>
+                  <span class="become">Our Stories....</span><br><br>
                   <span class="milstonediv">Collaboration is the key to success, we trust in the value that comes with it,
                   join us to create the world we want.</span>
                </div>
@@ -342,10 +338,7 @@
           </div>
         </div>
 
-
-
-
-         <div style="margin-top:150px;" class="ui  footer-bg-color vertical footer segment">
+         <div class="padding-div-2 ui footer-bg-color vertical footer segment">
             <div class="ui">
                <div class="ui two container column grid">
                   <div class="row">
@@ -374,7 +367,7 @@
                            <form method="POST" action="http://formspree.io/francooworks@gmail.com">
                               <div class="inline fields">
                                  <div class="field">
-                                    <input type="text" id="my-form" name="Subscribe"  placeholder="Enter Email" required style="background-color: transparent;border: 1px solid #4F5F83;color:#4F5F83">
+                                    <input type="text" id="my-form" name="Subscribe"  placeholder="Enter Email" required  class="form-style">
                                  </div>
                                  <div class="field">
                                     <button type="submit" class="ui submit primary button">Subscribe</button>
@@ -392,26 +385,5 @@
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <script src="style.js"></script>
       <script src="semantic.min.js"></script>
-      <script>
-      $(document).ready(function() {
-  var scroll_start = 0
-  var startchange = $("#startchange")
-  var offset = startchange.offset()
-  $(document).scroll(function() {
-    scroll_start = $(this).scrollTop()
-    if (scroll_start > offset.top) {
-      $(".bg-secon-menu0").css("background-color", "#fff")
-      $(".bg-secon-menu0").css("box-shadow", "0px 1px 10px #00000040")
-      $(".bg-secon-menu02").css("color", "#1474DF")
-      $(".img-change img").attr("src", "./assets/logo-top.png")
-    } else {
-      $(".bg-secon-menu0").css("background-color", "#00000040")
-      $(".bg-secon-menu02").css("color", "#fff")
-      $(".bg-secon-menu0").css("box-shadow", "0px 0px 0px #1474DF")
-      $(".img-change img").attr("src", "./assets/logo.png")
-    }
-  })
-})
-</script>
    </body>
 </html>
